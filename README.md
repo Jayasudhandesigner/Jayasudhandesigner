@@ -1,5 +1,5 @@
 # Jayasudhan M
-**Founding AI Product Manager at TS Techy | B.Tech in AI & Data Science (Graduating June 2026)**
+**Founding AI Product Manager at TS Techy | B.Tech in AI & Data Science**
 
 [![Profile Views](https://komarev.com/ghpvc/?username=Jayasudhandesigner&label=Profile+Views&color=0e75b6&style=flat)](https://github.com/Jayasudhandesigner)
 [![GitHub Stars](https://img.shields.io/github/stars/Jayasudhandesigner?style=flat&color=FFD700&label=Total%20Stars)](https://github.com/Jayasudhandesigner?tab=repositories)
