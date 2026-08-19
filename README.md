@@ -76,18 +76,6 @@
 
 ---
 
-## 📊 GitHub Activity
-
-<div align="center">
-
-<img height="155" src="https://github-readme-stats.vercel.app/api?username=Jayasudhandesigner&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-&nbsp;
-<img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jayasudhandesigner&layout=compact&theme=tokyonight&hide_border=true&langs_count=5" />
-
-</div>
-
----
-
 <div align="center">
 
 **📁 [Explore PM Artifacts — PRDs, Eval Reports & Product Teardowns](https://github.com/Jayasudhandesigner/pm-artifacts)**
