@@ -1,36 +1,70 @@
 # Jayasudhan M
-**AI Product Manager who specs and ships non-deterministic systems.**
 
-Founding AI Product Manager at TS Techy | B.Tech in AI & Data Science (Graduating June 2026)
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Jayasudhan+M;AI+Product+Manager;I+spec+and+ship+non-deterministic+AI+agents." alt="Typing SVG" />
+  
+  <p><b>Founding AI Product Manager at TS Techy</b> • B.Tech in AI & Data Science (Graduating June 2026)</p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=1e1e2e&height=120&section=header&text=AI%20Product%20Manager%20Portfolio&fontSize=28&fontColor=cdd6f4" width="100%"/>
-
----
-
-### Pinned Projects & Product Decisions
-
-| Project | Problem it Solves | My Decision | Outcome |
-| :--- | :--- | :--- | :--- |
-| **[PyGenGuard](https://github.com/Jayasudhandesigner/PyGenGuard)** | LLMs in regulated enterprise environments leak PII, accept prompt injections, and generate unpredictable token costs. | Built deterministic runtime governance middleware enforcing intent, PII/CCPA compliance, and injection blocking before model invocation. | >95% malicious-prompt block rate at <5ms overhead; 40–60% token cost reduction via early rejection. Live on PyPI. |
-| **[Clinical Trial Risk Prediction Platform](https://github.com/Jayasudhandesigner/clinical-trial-risk)** | Clinical trial coordinators miss early warning signs of patient dropouts before manual intervention is possible. | Designed a 3-tier risk stratification engine prioritized for high recall, accepting false positives to protect patient retention. | 85% dropout-risk prediction accuracy; 78% Docker image size reduction. [MEASURE: Coordinator intervention lead time] |
-| **[Enterprise RAG Intelligence (Groq)](https://github.com/Jayasudhandesigner/enterprise-rag-groq)** | Multi-document enterprise search lag (>2s) breaks user focus during live analysis sessions. | Capped retrieval depth and optimized reranking pipeline to prioritize sub-second latency over marginal recall gains. | Cut p90 response latency from 2.1s to 0.9s across 75+ concurrent sessions. [MEASURE: Task completion rate change] |
-| **[AI Appointment Automation Engine](https://github.com/Jayasudhandesigner/appointment-automation-engine)** | Patient booking via WhatsApp/voice fails during ambiguous requests, lost slots, or silent drop-offs. | Enforced strict human-in-the-loop (HITL) fallback triggers whenever slot availability or intent confidence drops below threshold. | Zero unhandled conversational dead-ends in end-to-end multi-channel pilot. [MEASURE: HITL escalation rate %] |
-| **[Multi-Agent Orchestration System](https://github.com/Jayasudhandesigner/langgraph-multi-agent-triage)** | Single-prompt LLMs collapse under multi-step domain workflows (alert triage & routing). | Architected a LangGraph supervisor-agent layout with bounded state retries, typed outputs, and execution tracing. | Achieved deterministic step routing. [MEASURE: Task success rate vs single-prompt baseline %] |
-| **[LLM Evaluation Harness & Report](https://github.com/Jayasudhandesigner/llm-eval-harness)** | GenAI product regressions and hallucinations pass unnoticed without continuous quantitative benchmarking. | Implemented an eval-first harness (RAGAS/DeepEval) tracking task completion, grounding, hallucination, latency, and cost per task. | Established production eval baseline; drove grounding accuracy from [MEASURE: v1 %] to [MEASURE: v2 %]. |
-| **[FlixMood Recommender](https://github.com/Jayasudhandesigner/FlixMood)** | Cold-start users receive generic recommendations when mood context is missing. | Paired Matrix Factorization (SVD) with item feature vectors (TF-IDF) for hybrid mood-aware filtering. | [MEASURE: Precision@K and cold-start coverage rate] |
+  <a href="https://github.com/Jayasudhandesigner/pm-artifacts"><b>📁 Explore PM Artifacts (PRDs & Eval Reports) »</b></a>
+</div>
 
 ---
 
-### How I Work
+### 🚀 Pinned Projects & Product Decisions
 
-- **PRDs for Non-Deterministic Systems**: I define probabilistic feature specs around fallback paths, confidence boundaries, and error budgets—not static wireframes.
-- **Eval-First Development**: Features don't ship without quantitative eval baselines measuring grounding, hallucination rate, latency, and cost per task.
-- **Shipping Velocity**: I reduce scope to core decision boundaries and test hypotheses using functional prototypes built in days.
+#### 🛡️ 1. [PyGenGuard](https://github.com/Jayasudhandesigner/PyGenGuard) — GenAI Governance Middleware
+* **Problem**: Regulated enterprises cannot adopt LLMs due to PII leaks, prompt injections, and unmanaged token budgets.
+* **My Decision**: Built deterministic runtime governance middleware enforcing intent, CCPA safety, and early injection blocking prior to model execution.
+* **Outcome**: **>95% malicious prompt block rate** at **<5ms overhead**, cutting token costs by **40–60%**. *(Live on PyPI)*
+
+#### 🩺 2. [Clinical Trial Risk Platform](https://github.com/Jayasudhandesigner/clinical-trial-risk) — Patient Retention Engine
+* **Problem**: Coordinators miss early dropout signals before manual intervention is possible.
+* **My Decision**: Architected a 3-tier risk stratification model prioritized for high recall—accepting false positives to safeguard retention.
+* **Outcome**: **85% dropout prediction accuracy** & **78% Docker size reduction**. `[MEASURE: Coordinator intervention lead time]`
+
+#### ⚡ 3. [Enterprise RAG Intelligence](https://github.com/Jayasudhandesigner/enterprise-rag-groq) — Sub-Second Multi-Doc Search
+* **Problem**: 2.1s query latency killed user focus during multi-document search sessions.
+* **My Decision**: Capped retrieval depth and optimized reranking pipeline to prioritize latency over marginal recall gains.
+* **Outcome**: Cut p90 response time **2.1s → 0.9s** across 75+ concurrent sessions. `[MEASURE: Task completion impact]`
+
+#### 💬 4. [AI Appointment Automation Engine](https://github.com/Jayasudhandesigner/appointment-automation-engine) — Multi-Channel Patient Booking
+* **Problem**: Multi-turn patient scheduling fails on ambiguous requests, disappearing slots, or silent drop-offs.
+* **My Decision**: Enforced explicit confidence thresholds that trigger human-in-the-loop (HITL) escalation before booking failure occurs.
+* **Outcome**: Zero unhandled conversational dead-ends in multi-channel pilot. `[MEASURE: HITL escalation rate %]`
+
+#### 🤖 5. [Multi-Agent Orchestration System](https://github.com/Jayasudhandesigner/langgraph-multi-agent-triage) — Alert & Triage Router
+* **Problem**: Single-prompt LLMs fail under multi-step domain workflows (financial crime / alert triage).
+* **My Decision**: Designed a LangGraph supervisor-agent graph with bounded state retries, typed schemas, and execution tracing.
+* **Outcome**: Deterministic step routing & execution visibility. `[MEASURE: Success rate vs single-prompt baseline %]`
+
+#### 📊 6. [LLM Evaluation Harness](https://github.com/Jayasudhandesigner/llm-eval-harness) — Quantitative GenAI Benchmarking
+* **Problem**: Model regressions and prompt hallucinations pass unnoticed without continuous evaluation.
+* **My Decision**: Built an eval-first harness (RAGAS / DeepEval) tracking grounding, hallucination, latency, and cost per task across releases.
+* **Outcome**: Baseline failure audit; improved grounding accuracy from `[MEASURE: v1 %]` to `[MEASURE: v2 %]`.
+
+#### 🎬 7. [FlixMood Recommender](https://github.com/Jayasudhandesigner/FlixMood) — Hybrid Mood Filtering
+* **Problem**: Standard recommenders fail cold-start users without mood context.
+* **My Decision**: Combined Matrix Factorization (SVD) with item feature vectors (TF-IDF) for mood-aware hybrid filtering.
+* **Outcome**: `[MEASURE: Precision@K & cold-start coverage rate]`
 
 ---
 
-### Portfolio & Contact
+### 🧠 How I Work
 
-- **PM Artifacts Repo (PRDs, Eval Reports, Product Teardowns, Metrics Case Study)**: [`pm-artifacts`](https://github.com/Jayasudhandesigner/pm-artifacts)
-- **LinkedIn**: [linkedin.com/in/jayasudhanm]([NEED: LinkedIn profile URL])
-- **Email**: [NEED: Professional email address]
+> **PRDs for Non-Deterministic Systems**  
+> I define probabilistic feature specs around fallback paths, confidence boundaries, and error budgets—not static wireframes.
+
+> **Eval-First Development**  
+> Features don't ship without quantitative eval baselines measuring grounding, hallucination rate, latency, and cost per task.
+
+> **Shipping Velocity**  
+> I reduce scope to core decision boundaries and test hypotheses using functional prototypes built in days.
+
+---
+
+<div align="center">
+  <p><b>Connect with me:</b></p>
+  <a href="https://github.com/Jayasudhandesigner/pm-artifacts"><b>📄 PM Artifacts Repo</b></a> • 
+  <a href="[NEED: LinkedIn profile URL]"><b>LinkedIn</b></a> • 
+  <a href="mailto:[NEED: Email]"><b>Email</b></a>
+</div>
