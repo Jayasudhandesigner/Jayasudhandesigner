@@ -1,22 +1,29 @@
-<div align="center">
+# Jayasudhan M
+**Founding AI Product Manager at TS Techy | B.Tech in AI & Data Science (Graduating June 2026)**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=160&section=header&text=Jayasudhan%20M&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=AI%20Product%20Manager%20%E2%80%94%20specs%20%26%20ships%20non-deterministic%20AI%20agents&descAlignY=60&descColor=38BDF8&descSize=18" width="100%"/>
+[![Profile Views](https://komarev.com/ghpvc/?username=Jayasudhandesigner&label=Profile+Views&color=0e75b6&style=flat)](https://github.com/Jayasudhandesigner)
+[![PyPI Package](https://img.shields.io/pypi/v/pygenguard?color=38BDF8&label=PyGenGuard)](https://pypi.org/project/pygenguard/)
+[![PM Artifacts](https://img.shields.io/badge/PM_Artifacts-PRDs_%26_Evals-blue)](https://github.com/Jayasudhandesigner/pm-artifacts)
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=38BDF8&center=true&vCenter=true&width=700&lines=Founding+AI+Product+Manager+%40+TS+Techy;B.Tech+AI+%26+Data+Science+%E2%80%94+Graduated+June+2026;I+build+what+I+spec.+I+measure+what+I+ship." alt="Typing SVG" />
-
-<br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=Jayasudhandesigner&label=Profile+Views&color=0e75b6&style=flat)
-
-</div>
+> **AI Product Manager who specs and ships non-deterministic AI systems & agents.**  
+> I write specifications for probabilistic software, design eval-first benchmarks, and leverage AI-assisted "vibe coding" tools to ship production prototypes at extreme velocity.
 
 ---
 
-## 🧭 Who I Am
+### 🛠️ Tech Stack & AI PM Capabilities
 
-I am an AI Product Manager who specs and ships systems that operate under non-deterministic conditions — AI security middleware, clinical risk engines, and enterprise software. I focus on real user problems, clear risk thresholds, and auditable metrics.
+#### 🧠 AI Product Management Stack
+* **Probabilistic PRDs & System Specs**: Fallback architectures, confidence thresholds, error budgets, HITL (Human-in-the-Loop) escalation paths.
+* **Eval-First Development & LLMOps**: Quantitative benchmarking (RAGAS, DeepEval), grounding accuracy, hallucination tracking, p95 latency & token cost optimization.
+* **AI Security & Governance**: PII / CCPA compliance, prompt injection defense, risk stratification engines, EU AI Act & NIST AI RMF audit trails.
 
-I am applying to AI PM, AI Product Owner, and Associate PM roles in India and Europe (Google, Microsoft, JPMorganChase, Hawk AI, and similar). My PM artifacts — PRDs, eval reports, and teardowns — are compiled in [`pm-artifacts`](https://github.com/Jayasudhandesigner/pm-artifacts).
+#### 💻 Technical Stack
+[![My Skills](https://skillicons.dev/icons?i=python,fastapi,tensorflow,pytorch,docker,aws,postgres,redis,react,git,github,linux&perline=6)](https://skillicons.dev)
+* **Backend & AI Ops**: Python, FastAPI, TensorFlow, PyTorch, Docker, AWS (EC2/Free Tier), PostgreSQL, Redis, React.
+
+#### ⚡ Shipping Advantage (AI-Assisted "Vibe Coding" Stack)
+* **Tools**: `Cursor`, `Claude 3.7 / Sonnet`, `Antigravity IDE`, `GitHub Copilot`, `v0.dev`, `Bolt.new`
+* **Product Impact**: I don't just write PRDs and wait for engineering cycles. I leverage state-of-the-art AI coding tools to personally build, test, and deploy functional prototypes, runtime guardrails, and MLOps pipelines in days.
 
 ---
 
@@ -68,16 +75,6 @@ I am applying to AI PM, AI Product Owner, and Associate PM roles in India and Eu
 
 ---
 
-## 🛠️ Stack
-
-<div align="center">
-
-[![My Skills](https://skillicons.dev/icons?i=python,fastapi,tensorflow,docker,aws,react,postgres,git,github,linux&perline=5)](https://skillicons.dev)
-
-</div>
-
----
-
 ## 📊 GitHub Activity
 
 <div align="center">
@@ -90,22 +87,8 @@ I am applying to AI PM, AI Product Owner, and Associate PM roles in India and Eu
 
 ---
 
-## 🐍 Contribution Graph
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jayasudhandesigner/Jayasudhandesigner/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jayasudhandesigner/Jayasudhandesigner/output/github-snake.svg" />
-    <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/Jayasudhandesigner/Jayasudhandesigner/output/github-snake.svg" />
-  </picture>
-</div>
-
----
-
 <div align="center">
 
 **📁 [Explore PM Artifacts — PRDs, Eval Reports & Product Teardowns](https://github.com/Jayasudhandesigner/pm-artifacts)**
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=100&section=footer" width="100%"/>
 
 </div>
